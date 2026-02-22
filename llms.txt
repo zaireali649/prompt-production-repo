@@ -1,0 +1,104 @@
+Ground & Gather Landing Page - Build Log
+Date: 2026-02-22
+Project type: Static HTML + CSS only (no JavaScript, no frameworks)
+
+Overview
+- Built a single-page landing page for the fictional neighborhood coffee shop "Ground & Gather."
+- Audience target: mixed technical comfort (students and adults).
+- Design goals: clear, simple, trustworthy.
+
+Core structure implemented (in this exact order)
+1) Hero
+2) Problem
+3) Solution
+4) Features
+5) Testimonials
+6) Pricing
+7) CTA
+8) Footer
+
+Files created
+- index.html
+- styles.css
+
+First draft content delivered
+- Semantic HTML structure with accessible section labels.
+- Brand-focused hero with primary CTA.
+- Problem/Solution framing.
+- Features section (rewritten for clearer value communication):
+  - Built for fast, reliable coffee runs without extra friction.
+  - Order in Minutes:
+    - Place your order in a few taps and skip the line.
+    - Outcome: less waiting, faster pickup.
+    - Proof: most orders are ready in 10-15 minutes.
+  - Transparent Pricing:
+    - See clear prices up front with no confusing surprises.
+    - Outcome: easy decisions and better budget control.
+    - Proof: straightforward menu pricing and plan options.
+  - Quality Guarantee:
+    - If something is not right, we make it right quickly.
+    - Outcome: confidence every time you order.
+    - Proof: backed by our remake promise.
+  - Low-Friction Experience:
+    - Get started without complicated setup or commitments.
+    - Outcome: easy for first-time and repeat customers.
+    - Proof: no app required, no contract, cancel anytime.
+- Testimonials.
+- Three-tier pricing cards.
+- Final CTA and contact footer details.
+
+Five small iteration improvements (applied sequentially)
+1) Added in-page top navigation links for section scanning.
+2) Added trust signals under Solution:
+   - locally owned messaging
+   - transparent pricing
+   - remake promise
+3) Added accessibility enhancements:
+   - "Skip to main content" link
+   - visible keyboard focus styles
+4) Highlighted a "Most Popular" pricing plan.
+5) Reduced signup friction:
+   - reassurance copy ("No app required. No contract. Cancel anytime.")
+   - added secondary CTA button.
+
+Image strategy and implementation
+- Curated stock image options for all key sections.
+- Implemented section images directly in the page:
+  - Hero
+  - Problem
+  - Solution
+  - Features (4 value cards with one image per card)
+  - Testimonials
+  - Pricing (one image per product card)
+  - CTA
+- Added responsive image treatment and consistent visual styling.
+- Added descriptive alt text and lazy loading on non-hero images.
+
+Pricing alignment bug fix
+- Issue: "Most Popular" badge pushed that card image down, causing misalignment.
+- Fix: moved badge to absolute positioning and adjusted popular card top padding.
+- Result: pricing card images aligned consistently.
+
+Online ordering information added
+- Added "How to Order Online" block inside Solution section.
+- Included:
+  - short explanatory intro
+  - 3-step ordered process
+  - readiness time trust note (10-15 minutes)
+  - online order CTA link
+  - supporting image
+
+CSS/layout enhancements across work
+- Reusable split layout for text + image sections.
+- Reusable section image styling.
+- Feature card grid and feature card image styling, plus pricing image styling.
+- Popular plan badge styling and corrected positioning.
+- Mobile behavior: stack split layouts at narrow widths.
+
+Quality checks performed
+- Lint checks run after substantive edits.
+- No linter errors reported in edited files.
+
+Current status
+- Landing page is fully static and functional with content, visuals, and ordering guidance.
+- Next optional step: replace placeholder order URL with production ordering endpoint.
